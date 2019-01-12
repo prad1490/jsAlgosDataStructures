@@ -1,4 +1,4 @@
-//Naive Solution
+//Naive Solution, O(n2)//n aquare
 /* function sumZero(array) {
   let getArray = array.sort();
   for (let i = 0; i < getArray.length; i++) {
@@ -10,7 +10,7 @@
   }
 } */
 
-//better Soln
+//better Soln below O(N) space O(1)
 
 function sumZero(array) {
   array.sort();
