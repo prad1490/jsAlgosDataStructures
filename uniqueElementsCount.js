@@ -1,5 +1,6 @@
 //using forEach
 function uniqueCount(arr) {
+  if(arr.length ==0) return 0;
   var unique = {};
   arr.forEach(element => {
     unique[element] = (unique[element] || 0) + 1;
